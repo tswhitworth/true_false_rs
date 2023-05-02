@@ -56,7 +56,7 @@ The exit value is crucial as it determines the success or failure of a process w
 In bash, the ***&&*** operator can chain commands like ***true*** and ***ls***, where the second command only runs if the first one succeeds.
 
 ```bash
-$ true && ls
+$ true_rs && ls
 Cargo.lock  Cargo.toml  README.md  src  target  tests
 ```
 
@@ -64,7 +64,7 @@ When running ***false*** and ***ls***, the first process fails, preventing ls fr
 The entire command's exit status is nonzero due to the initial failure.
 
 ```bash
-$ false && ls
+$ false_rs && ls
 $ echo $?
 1
 ```
