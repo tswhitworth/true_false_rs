@@ -1,4 +1,4 @@
-# True and False Unix Commands in Rust
+# True and False Commands Implemented in Rust
 
 >This project is a simple implementation of OpenBSD's ***true*** and ***false*** commands in Rust.
 The ***true*** command does nothing and exits with a successful status code (0), while the false command does nothing and exits with a failure status code (1). The code also includes a basic set of tests to ensure the correct behavior of both commands.
